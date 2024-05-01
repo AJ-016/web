@@ -1,0 +1,103 @@
+@charset "utf-8";
+@media (max-width: 1280px){
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.col-1 {width: 8.333333333333333%; height: auto; float: left; padding: 15px;}
+.col-2 {width: 16.66666666666667%; height: auto; float: left; padding: 15px;}
+.col-3 {width: 25%; height: auto; float: left; padding: 15px;}
+.col-4 {width: 33.33333333333333%; height: auto; float: left; padding: 15px;}
+.col-5 {width: 41.66666666666667%; height: auto; float: left; padding: 15px;}
+.col-6 {width: 50%; height: auto; float: left; padding: 15px;}
+.col-7 {width: 58.33333333333333%; height: auto; float: left; padding: 15px;}
+.col-8 {width: 66.66666666666667%; height: auto; float: left; padding: 15px;}
+.col-9 {width: 75%; height: auto; float: left; padding: 15px;}
+.col-10 {width: 83.33333333333333%; height: auto; float: left; padding: 15px;}
+.col-11 {width: 91.66666666666667%; height: auto; float: left; padding: 15px;}
+.col-12 {width: 100%; height: auto; float: left; padding: 15px;}
+.container-fluid{ width: 100%; clear: both; }
+.container{max-width: 1280px;margin: 0 auto;}
+.img-fluid{max-width: 100%; height: auto;}
+.cl{clear:both;}
+
+.menuBar{
+	float: right;
+}
+
+#body{
+	background-color: #252525;
+	max-width: 100%;
+}
+
+.menuBar a{
+	color: #C0C0C0;
+	text-decoration: none;
+	padding: 1% 5%;
+	border-radius: 25px;
+	transition: .6s;
+}
+
+.menuBar:hover a{
+	filter: blur(2px);
+	color: #A0A0A0
+}
+
+.menuBar:hover a:hover{
+	filter: blur(0px);
+	color: #C0C0C0
+	
+}
+
+#name{
+	padding: 10px;
+	float: left;
+	font-size: 24px;
+	font-family: Monaco;
+	user-select: none;
+	margin: 10px
+}
+
+#name{
+	background: linear-gradient(90deg,#252525,#fff,#252525);
+	letter-spacing: 5px;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+	background-repeat:no-repeat;
+	background-size: 80%;
+	animation: shine 5s linear infinite;
+	position: absolute;
+}
+
+@keyframes shine{
+	0%{
+		background-position-x:-500%;
+	}
+	100%{
+		background-position-x:500%; 
+	}
+}
+
+.Home_text{
+	color: aliceblue;
+	float: left;
+	margin: 10%;
+}
+.animated_text{
+	font-size: 21px;
+}
+.typed{
+	color: #ff7f50;
+}
+
+.section_1{
+	background-image: url("images/ROOM_project.jpg");	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
